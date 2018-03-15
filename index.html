@@ -28,8 +28,32 @@
               <h5 class="card-header">New Train</h5>
               <div class="card-body">
                 <h5 class="card-title">Enter route information:</h5>
-      
-                <button onclick="btnAdd()" class="btn btn-primary">Enter</button>
+
+
+                <form>
+  
+                      <div class="form-group">
+                        <label for="routeName">Name</label>
+                        <input type="text" class="form-control" id="routeName" placeholder="Name of Route">
+                      </div>
+  
+   
+                    <div class="form-group">
+                      <label for="dest">Destination</label>
+                      <input type="text" class="form-control" id="dest" placeholder="Destination">
+                    </div>
+                    <div class="form-group">
+                      <label for="departureTime">First Departure</label>
+                      <input type="time" class="form-control" id="departureTime" placeholder="HH:MM:SS">
+                    </div>
+                    <div class="form-group">
+                        <label for="frequency">How Often?</label>
+                        <input type="number" class="form-control" id="freq" placeholder="minutes between trains">
+                    </div>
+ 
+                    <button type="submit" class="btn btn-primary">Sign in</button>
+                  </form>
+
               </div>
             </div>
   
